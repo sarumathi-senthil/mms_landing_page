@@ -821,17 +821,18 @@ main .footer .credit {
     align-items: center;  
   }
 
-  .contact-text-mobile{
-    display:block ;
-    font-size: 12px !important;
-  }
-
   .tm-text{
     font-size: 8px !important;
   }
 }
 
-
+@media(max-width: 760px) {
+  .contact-text-mobile{
+    display:block ;
+    font-size: 12px !important;
+  }
+  
+}
 
 @media (max-width: 767px) {
   .row.align-mobile {
