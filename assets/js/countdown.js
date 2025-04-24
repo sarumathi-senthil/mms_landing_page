@@ -40,7 +40,7 @@ updateCountdown(); // Initial call
 
 // Text animation
 
-const text = "We Are";
+const text = "WE'RE";
 let index = 0;
 
 function typeWriter() {
@@ -54,7 +54,7 @@ function typeWriter() {
   }
 }
 
-const text1 = "Coming Soon...";
+const text1 = "COMING SOON";
 let index1 = 0;
 
 function typeWriter1() {

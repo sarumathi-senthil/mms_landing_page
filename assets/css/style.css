@@ -749,13 +749,10 @@ main .footer .credit {
 }
 
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
-  /* Styles here */
-}
 
-/* iPad Landscape */
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  /* Styles here */
+.contact-text-mobile{
+  display:none ;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
 }
 
 @media (max-width:800px){
@@ -812,7 +809,8 @@ main .footer .credit {
      /* optional, for side spacing */
   }
   .cmg-text{
-    text-align: center;
+    font-weight: 600 !important;
+    color : black !important
   }
   
   .desc-text{
@@ -823,10 +821,16 @@ main .footer .credit {
     align-items: center;  
   }
 
+  .contact-text-mobile{
+    display:block ;
+    font-size: 12px !important;
+  }
+
   .tm-text{
-    font-size: 10px !important;
+    font-size: 8px !important;
   }
 }
+
 
 
 @media (max-width: 767px) {
