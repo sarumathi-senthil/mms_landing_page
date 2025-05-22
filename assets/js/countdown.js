@@ -1,4 +1,4 @@
-const countdownDate = new Date("May 23, 2025 00:00:00").getTime();
+const countdownDate = new Date("May 26, 2025 00:00:00").getTime();
 const countdownEl = document.getElementById("countdown");
 
 function createSegment(value, label) {
