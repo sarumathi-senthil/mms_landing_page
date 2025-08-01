@@ -1,8 +1,15 @@
+@media (max-width: 767px) {
+  .Launch-tag {
+    text-align: center !important;
+    width: 100%;
+    display: block;
+  }
+}
 /*===========================
     01. Common CSS
 ===========================*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700|Space+Mono:400,700&display=swap");
-html,body {
+html, body {
   font-weight: normal;
   font-style: normal;
   overflow-x: hidden;
@@ -10,9 +17,9 @@ html,body {
       rgba(0, 0, 0, 0.66), 
       rgba(3, 29, 86, 0.516)
     ),
-    url("../img/map_bg_dark1.webp") no-repeat center center;
+    url("../img/map_bg_dark1.webp") no-repeat center center fixed;
   background-size: cover;
-  height: 100%;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
 }
@@ -149,32 +156,56 @@ p {
 .head-line1{
   font-weight: 600; 
   color : white; 
-  font-size: 5rem; 
+  font-size: 4.8rem; 
+  font-family: "Merriweather" !important;
+  margin-bottom: 1rem;
 }
+.head-line2{
+  font-family: "Merriweather" !important;
+}
+.desc-text{
+    margin-top: 1rem;
+  }
 .Launch-tag{
-margin-top: 1rem !important;
-font-family: 'Times New Roman', Times, serif !important;
+
+margin-top: 2rem !important;
+margin-bottom: 1rem !important;
+font-family: "Merriweather" !important;
+font-size: 1rem !important;
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .container {
     width: 450px;
   }
   .head-line1 {
-    font-size: 4rem;
+    font-size: 3rem !important;
   }
 }
 
 @media only screen and (min-width: 300px) and (max-width: 767px) {
   
   .head-line1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .Launch-tag{
     font-size: 0.8rem !important;
     margin-left: 0.2rem;
   }
+  .end-text{
+    font-size: 0.8rem !important;
+    margin-top: 1rem;
+  }
+  
+  .desc-text-mob{
+    margin-top: 1rem;
+  }
 }
-
+@media (max-width: 767px) {
+  main .main-wrapper.demo-06 .hero-area p {
+    line-height: 24px !important;
+    font-size: 14px;
+  }
+}
 .logo img {
   width: 50%;
 }
@@ -670,6 +701,15 @@ main .footer .credit {
 .countdown-container {
   display: flex;
   gap: 20px;
+  justify-content: center;
+}
+@media (max-width: 800px) {
+  .countdown-container {
+    gap: 10px;
+  }
+  .row.justify-content-between {
+    justify-content: center !important;
+  }
 }
 
 .countdown-segment {
@@ -684,7 +724,7 @@ main .footer .credit {
   -webkit-backdrop-filter: blur(8px);
   padding: 20px 30px;
   border-radius: 12px;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   color: white;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
@@ -694,7 +734,7 @@ main .footer .credit {
   margin-top: 8px;
   color: white;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 12px;
   letter-spacing: 1px;
 }
 
@@ -741,6 +781,7 @@ main .footer .credit {
 .contact-text{
   color:grey;
   font-size: 20px !important;
+font-family: 'Space Mono', monospace;
 }
 
 .desc-text{
@@ -776,7 +817,13 @@ main .footer .credit {
   display:none ;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
 }
-
+.count-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+  }
 @media (max-width:800px){
   .mobile-only {
     display: block;
@@ -881,5 +928,21 @@ main .footer .credit {
   .contact-text {
     font-size: 10px;
     margin: 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .countdown-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .count-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
   }
 }
