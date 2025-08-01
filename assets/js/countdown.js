@@ -40,28 +40,28 @@ updateCountdown(); // Initial call
 
 // Text animation
 
-const text = "SITE UNDER";
+const text = "We’re Growing";
 let index = 0;
 
 function typeWriter() {
   if (index < text.length) {
     document.getElementById("typewriter1").innerHTML += text.charAt(index);
     index++;
-    setTimeout(typeWriter, 200); // Adjust speed here
+    setTimeout(typeWriter, 100); // Adjust speed here
   } else {
     // Once the first text is finished, start typing the second text
     typeWriter1();
   }
 }
 
-const text1 = "RENOVATION";
+const text1 = "And So Is Our Website!";
 let index1 = 0;
 
 function typeWriter1() {
   if (index1 < text1.length) {
     document.getElementById("typewriter2").innerHTML += text1.charAt(index1);
     index1++;
-    setTimeout(typeWriter1, 200); // Adjust speed here
+    setTimeout(typeWriter1, 80); // Adjust speed here
   }
 }
 
