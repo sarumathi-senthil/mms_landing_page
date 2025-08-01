@@ -17,7 +17,7 @@ html, body {
       rgba(0, 0, 0, 0.66), 
       rgba(3, 29, 86, 0.516)
     ),
-    url("../img/map_bg_dark1.webp") no-repeat center center fixed;
+    url("../img/mms_bg.webp") no-repeat center center fixed;
   background-size: cover;
   min-height: 100vh;
   margin: 0;
@@ -883,7 +883,7 @@ font-family: 'Space Mono', monospace;
   }
   
   .desc-text{
-    font-size: 10px !important;
+    font-size: 12px !important;
   }
 
   .credit{
