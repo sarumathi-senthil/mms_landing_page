@@ -10,7 +10,7 @@ html,body {
       rgba(0, 0, 0, 0.66), 
       rgba(3, 29, 86, 0.516)
     ),
-    url("../img/map_bg_dark1.png") no-repeat center center;
+    url("../img/map_bg_dark1.webp") no-repeat center center;
   background-size: cover;
   height: 100%;
   margin: 0;
@@ -84,7 +84,7 @@ h6 a {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 30px;
   margin-bottom: 20px;
 }
 
@@ -146,9 +146,32 @@ p {
   z-index: -1;
 }
 
+.head-line1{
+  font-weight: 600; 
+  color : white; 
+  font-size: 5rem; 
+}
+.Launch-tag{
+margin-top: 1rem !important;
+font-family: 'Times New Roman', Times, serif !important;
+}
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .container {
     width: 450px;
+  }
+  .head-line1 {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+  
+  .head-line1 {
+    font-size: 4rem;
+  }
+  .Launch-tag{
+    font-size: 0.8rem !important;
+    margin-left: 0.2rem;
   }
 }
 
@@ -722,7 +745,6 @@ main .footer .credit {
 
 .desc-text{
   font-family: "Merriweather" !important;
-  font-size: 22px !important;
   font-weight: 300 !important;
   color:rgb(240, 224, 224) !important;
 }
@@ -822,7 +844,7 @@ main .footer .credit {
   }
 
   .tm-text{
-    font-size: 8px !important;
+    font-size: 0.8rem !important;
   }
 }
 
